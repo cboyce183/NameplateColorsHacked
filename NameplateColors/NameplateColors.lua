@@ -390,7 +390,7 @@ for i, v in pairs({"nc", "namecolors", "nameplatecolors"}) do
 	_G["SLASH_NAMEPLATECOLORS"..i] = "/"..v
 end
 
-for i, v in pairs({"setColor"}) do
+for i, v in pairs({"setColor", "setColour", "sc", "color", "colour"}) do
 	_G["SLASH_SETCOLOR"..i] = "/"..v
 end
 
